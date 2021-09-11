@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="978206f8-3225-48e3-8385-d5d1fb1d43ba" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1uQrDnil3Dj6hiM8he0Pbm8LNl4" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CampusRecruitmentStudents/build.gradle" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="978206f8-3225-48e3-8385-d5d1fb1d43ba" name="Default Changelist" comment="" />
+      <created>1624608536966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624608536966</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="496" y="122" key="FileChooserDialogImpl" timestamp="1624624602105">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="496" y="122" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1624624602105" />
+    <state x="496" y="128" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1624609024105" />
+  </component>
+</project>

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <View style="@style/proifleDetailsView" />
+        <View style="@style/proifleDetailsView" />
+        <TextView
+            android:text="Personal Details"
+            style="@style/profileDetailsTextMain"
+            android:textSize="20dp"/>
+        <View style="@style/proifleDetailsView" />
+
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/Studentnameimg"
+                android:src="@drawable/student2"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:text="Student Name"
+                android:layout_toRightOf="@id/Studentnameimg"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/studentnametext"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/Studentnameimg"
+                android:text="Student name" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/parentsimg"
+                android:src="@drawable/parents"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Parents Name"
+                android:layout_toRightOf="@id/parentsimg"
+                style="@style/profileDetailsTextMain"/>
+
+            <TextView
+                android:id="@+id/parentstext"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/parentsimg"
+                android:text="Parents Name" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/dobimg"
+                android:src="@drawable/calendar"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Date OF Birth"
+                android:layout_toRightOf="@id/dobimg"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/dob"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/dobimg"
+                android:text="Your Date of birth" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/nationalityimg"
+                android:src="@drawable/nationality"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Nationality"
+                android:layout_toRightOf="@id/nationalityimg"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/nationality"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/nationalityimg"
+                android:text="Enter your Nationality" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+
+        <RelativeLayout
+            android:id="@+id/rlabout"
+            style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/hobbiesimg"
+                android:src="@drawable/hobbies"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Hobbies"
+                android:layout_toRightOf="@id/hobbiesimg"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/hobbies"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/hobbiesimg"
+                android:text="Your Hobbies" />
+
+        </RelativeLayout>
+        <View style="@style/proifleDetailsView" />
+        <View style="@style/proifleDetailsView" />
+        <TextView
+            android:text="Educational Qualification"
+            style="@style/profileDetailsTextMain"
+            android:textSize="20dp"/>
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout
+            style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/schoolimg"
+                android:src="@drawable/school"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="School Name"
+                android:layout_toRightOf="@id/schoolimg"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/schoolname"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/schoolimg"
+                android:text="Enter Your School Name" />
+
+        </RelativeLayout>
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout
+            style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/schpassimg"
+                android:src="@drawable/year"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="School Passing Year"
+                android:layout_toRightOf="@id/schpassimg"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/schpassyear"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/schpassimg"
+                android:text="Fulltime/PartTime" />
+
+        </RelativeLayout>
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout
+            style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/sscperimg"
+                android:src="@drawable/percentage"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="SSC Percentage"
+                android:layout_toRightOf="@id/sscperimg"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/sscper"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/sscperimg"
+                android:text="Fulltime/PartTime" />
+
+        </RelativeLayout>
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout
+            style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/clgimg"
+                android:src="@drawable/college"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="College Name"
+                android:layout_toRightOf="@id/clgimg"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/clgname"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/clgimg"
+                android:text="enter clgname please" />
+
+        </RelativeLayout>
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout
+            style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/gradpassyearimg"
+                android:src="@drawable/graduationpassing"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Graduation Passing Year"
+                android:layout_toRightOf="@id/gradpassyearimg"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/gradpassyear"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/gradpassyearimg"
+                android:text="graduation passing year " />
+
+        </RelativeLayout>
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout
+            style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/gradpercentimg"
+                android:src="@drawable/percentage"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Degree Percentge"
+                android:layout_toRightOf="@id/gradpercentimg"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/gradpercent"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/gradpercentimg"
+                android:text="graduation percentage  " />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <View style="@style/proifleDetailsView" />
+        <TextView
+            android:text="Achievements"
+            style="@style/profileDetailsTextMain"
+            android:textSize="20dp"/>
+        <View style="@style/proifleDetailsView" />
+
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/achievementsimg1"
+                android:src="@drawable/achieve"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Achievements 1"
+                android:layout_toRightOf="@id/achievementsimg1"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/achievements1"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/achievementsimg1"
+                android:text="Student name" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/achievementsimg2"
+                android:src="@drawable/achieve"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Achievements 2"
+                android:layout_toRightOf="@id/achievementsimg2"
+                style="@style/profileDetailsTextMain"/>
+
+            <TextView
+                android:id="@+id/achievements2"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/achievementsimg2"
+                android:text="Parents Name" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/achievementsimg3"
+                android:src="@drawable/achieve"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Achievement 3"
+                android:layout_toRightOf="@id/achievementsimg3"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/achievements3"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/achievementsimg3"
+                android:text="Your Date of birth" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/achievementsimg4"
+                android:src="@drawable/achieve"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Achievement 4"
+                android:layout_toRightOf="@id/achievementsimg4"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/achievements4"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/achievementsimg4"
+                android:text="Enter your Nationality" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <View style="@style/proifleDetailsView" />
+        <TextView
+            android:text="Technical Skills"
+            style="@style/profileDetailsTextMain"
+            android:textSize="20dp"/>
+        <View style="@style/proifleDetailsView" />
+
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/langknownimg"
+                android:src="@drawable/langknown"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Language Known"
+                android:layout_toRightOf="@id/langknownimg"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/langknown"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/langknownimg"
+                android:text="Student name" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/dbknownimg"
+                android:src="@drawable/database"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Database Known"
+                android:layout_toRightOf="@id/dbknownimg"
+                style="@style/profileDetailsTextMain"/>
+
+            <TextView
+                android:id="@+id/dbknown"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/dbknownimg"
+                android:text="Parents Name" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/osknownimg"
+                android:src="@drawable/operatingsystem"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Operating System Known"
+                android:layout_toRightOf="@id/osknownimg"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/osknown"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/osknownimg"
+                android:text="Your Date of birth" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/Devtypeimg"
+                android:src="@drawable/role"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Devleoper Type"
+                android:layout_toRightOf="@id/Devtypeimg"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/Devtype"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/Devtypeimg"
+                android:text="Developer Type" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <Button
+            android:id="@+id/studpro_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Apply"
+            android:textColor="#FFFFFF"
+            android:background="#C700FC"
+            android:layout_gravity="right"/>
+        <View style="@style/proifleDetailsView" />
+
+    </LinearLayout>
+</ScrollView>
+
+</androidx.core.widget.NestedScrollView>
